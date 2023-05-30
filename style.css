@@ -61,3 +61,17 @@ label {
   color: black;
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    position: relative;
+    top: 260px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container {
+    position: relative;
+    top: 100px;
+  }
+}
