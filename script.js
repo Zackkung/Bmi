@@ -5,7 +5,7 @@ function calculateBMI() {
   
   let genderSelect = document.querySelector("#gender").value;
   console.log(genderSelect)
-  if (genderSelect == "ขาย") {
+  if (genderSelect == "ชาย") {
     MaleBmiCalc(bmi);
   }
   else if (genderSelect == "หญิง") {
