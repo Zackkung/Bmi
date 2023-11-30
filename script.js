@@ -5,14 +5,14 @@ function calculateBMI() {
   
   let genderSelect = document.querySelector("#gender").value;
   console.log(genderSelect)
-  if (genderSelect == "ชาย") {
+  if (genderSelect == "Male") {
     MaleBmiCalc(bmi);
   }
-  else if (genderSelect == "หญิง") {
+  else if (genderSelect == "Female") {
     FemaleBmiCalc(bmi);
   }
   var resultElement = document.getElementById('result');
-  resultElement.innerHTML = ' ค่า BMI ของคุณ: ' + bmi.toFixed(5);
+  resultElement.innerHTML = ' Your BMI : ' + bmi.toFixed(5);
 }
 
 var calculateButton = document.getElementById('btn');
